@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Cadastre-se aqui </title>
+</head>
+<body>
+    <main>
+            <h1>Cadastre-se</h1>
+            <div class="social-media">
+                <a href="#">
+                    <img src="./imagens/google.png" alt="Google">
+                </a>
+                <a href="#">
+                    <img src="./imagens/facebook.png" alt="Facebook">
+                </a>
+                <a href="#">
+                    <img src="./imagens/linkedin.png" alt="Linkedin">
+                </a>
+            </div>
+            <div class="alternative">
+                <span>Ou</span>
+            </div>
+            <form action="">
+                <label for="name">
+                    <span>Name</span>
+                    <input type="text" id="name" name="name">
+                </label>
+
+                <label for="email">
+                    <span>E-mail</span>
+                    <input type="email" id="email" name="email">
+                </label>
+
+                <label for="password">
+                    <span>Senha</span>
+                    <input type="password" id="password" name="password">
+                </label>
+                
+                <label for="password">
+                    <span>Confirmação de Senha</span>
+                    <input type="password" id="password" name="password">
+                </label>
+                <div class="endereço">
+                    <!--Nessa div eu vou colocar só os campos de endereço, para posterior alinhamento na horizontal-->
+                <label for="CEP">
+                    <span>CEP</span>
+                    <input type="cep" id="cep" name="código postal">
+                </label>
+                <label for="Estado">
+                    <span>Estado</span>
+                    <input type="estado" id="estado" name="estado">
+                </label>
+                <label for="Cidade">
+                    <span>Cidade</span>
+                    <input type="cidade" id="cidade" name="cidade">
+                </label>
+                <label for="Bairro">
+                    <span>Bairro</span>
+                    <input type="Bairro" id="bairro" name="bairrol">
+                </label>
+                <label for="Rua">
+                    <span>Rua</span>
+                    <input type="rua" id="rua" name="rua">
+                </label>
+                <label for="number">
+                    <span>Número</span>
+                    <input type="number" id="number" name="number">
+                </label>
+                <label for="complemento">
+                    <span>complemento</span>
+                    <input type="text" id="complemento" name="complemento">
+                </label>
+                </div>
+                <!--falta fazer o input do CEP ou linkar a API-->
+                <!--falta alinhar a div class endereço horizontalmente-->
+                
+                <input type="submit" value="Sign Up">
+
+            </form>
+    </main>
+    <section class="images">
+        <img src="./imagens/mobile.svg" alt="Mobile">
+        <div class="circle"></div>
+    </section>
+    
+</body>
+</html>
