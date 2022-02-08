@@ -1,7 +1,6 @@
-#Projeto Final Resilia
+#Projeto Final Resilia - Módulo 2 
 
-particpantes: 
-iata
-othon
-Kaio
-madalena
+Box du Chefe
+
+HTML,CSS E JAVASCRIPT. 
+
