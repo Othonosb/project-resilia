@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2? família=Montserrat:wght@300;500&display=swap');
+
 
 /* importei essa foto do gogole fontes, mas acho que não ta funcionando*/
 * {
@@ -6,17 +8,21 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    
 } /*resetando os padrões do navegador*/
 
 body {
+    z-index: 2;
     background: #c7e0d5 ;
     color: rgb(42, 116, 180);
     font-weight: 500;
     display: flex;
     min-height: 100vh;
 }
-
+#login{
+    margin-top: 7px;
+}
 main {
     width: 500vw;
     display: flex;
@@ -24,11 +30,22 @@ main {
     align-items: center;
     justify-content: center;
 }
-
+.logomarca{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin-right: 50px;
+    margin-top: 15px;
+}
+#logo1{
+    max-width: 80px;
+    border-radius: 10px;
+}
 main h1 {
-    color:  #8880fe;
-    font-size: 3rem;
-    margin-bottom: 3rem;
+    color:  #615bb8;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
 }
 
 main .social-media{
@@ -38,12 +55,21 @@ main .social-media{
 
 main .social-media a {
     text-decoration: none;
+    font-size: 10px;
 }
 
 main .social-media img {
     width: 36px;
     margin-left: 3rem;
+    transition: 0.5s;
+    opacity: 50%;
+
 }
+main .social-media img:hover{
+    opacity: 100%;
+    transform: scale(1.08);
+}
+
 
 main .social-media a:first-child img {
     margin-left: 0;
@@ -63,8 +89,8 @@ main .alternative span {
 main .alternative span::before, main .alternative span::after{
     position: absolute;
     content: ' ';
-    height: 1px;
-    width: 100px;
+    height: 2px;
+    width: 150px;
     bottom: 50%;
     right: 50px;
     background: rgba(81, 128, 143, 0.3);
@@ -94,21 +120,26 @@ main form {
      width: 300px;
      height: 30px;
      padding: 0 0.5rem;
-     margin-top: 0.5rem;
+     margin-top: 0.3rem;
      outline: none;
      color: green;
-     font-size: 1rem;
-     border: 1px solid #040B18;
-     border-radius: 8px;
+     font-size: 0,5rem;
+     border-radius: 4px;
+     transition: 0.7s;
+     cursor: pointer;
  }
+ main form input:hover{
+     color: white;
+    background: linear-gradient(45deg, #428545, #798b77);
 
+ }
  main form input[ type="submit" ] {
      cursor: pointer;
      width: 50%;
      margin-top: 3rem;
      border: none;
      border-radius: 32px;
-     background: #1ec21e;
+     background: #0b770b;
      color: rgb(255, 255, 255);
      font-size: 1.1rem;
      transition: all .3s ease-in-out;
@@ -124,9 +155,6 @@ main form {
      padding: 4rem;
      } /**/
 
-     section.images img {
-         
-      }
       section.images .circle {
           position: absolute;
           height: 100%;
