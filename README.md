@@ -1,6 +1,6 @@
-#Projeto Final Resilia - Módulo 2 
+#PROJETO FINAL - Módulo 2 
 
 Box du Chefe
 
-HTML,CSS E JAVASCRIPT. 
+Implementado no projeto : HTML, CSS, BOOTSTRAP E JAVASCRIPT. 
 
