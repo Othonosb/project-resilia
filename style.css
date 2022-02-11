@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'open Sans', 'sans-serif';
+}
+
+.tituloPrincipal{
+    margin-top: 5%;
+    padding-left: 25px;
+    color:#198754;
+    text-shadow: 2px 2px 5px #198754;
+}
+
+.card{
+    border-radius: 20px;
+}
+
+.card-img-top{
+    border-radius: 5px;
+}
+
+.card-deck{
+    padding: 25px;
+    margin-top: 5%;
+    color: white;
+    border-radius: 20px;
+}
+
+.card-body{
+    background: #198754;
+    
+}
