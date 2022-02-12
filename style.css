@@ -4,19 +4,21 @@
     box-sizing: border-box;
 }
 
-body {
-    overflow: hidden;
-}
 
 img {
     width: 150px;
-    height: 200px;
+    height: 180px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
 }
 
 h1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
-    color: green ;/* rgb(88, 129, 87); */
+    color: green ;
     text-shadow: 2px 2px 5px green;
 }
 
@@ -100,9 +102,9 @@ a {
 .box-perfil {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    margin: -30px 10px -25px 10px;
-    font-family: 'Open Sans', sans-serif;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
     color: green;
     text-shadow: 2px 2px 5px green;
     -moz-transition: all 0.3s;
@@ -112,8 +114,7 @@ a {
 
 .card-perfil {
     border: 3px solid rgba(18, 145, 18, 0.315);
-    border-radius: 0.50rem;
-    padding: 5px;
+    border-radius: 0.50rem; 
 }
 
 .card-perfil:hover {
@@ -124,23 +125,47 @@ a {
 
 .card-text {
     text-align: center;
-    padding: 2px;
-    font-family: 'Open Sans', sans-serif; 
-    font-size: 15px;
+    padding: 8px 0px;
     color: green;
     text-shadow: 2px 2px 5px green;
 }
 
-.botoes1 {
-    margin-top: 40px;
-    margin-right: 500px;
+/* ----- conteúdo de planos ------- */
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 67.5%;
+    height: 250px; 
 }
 
-.botoes2 {
-    margin-top: -125px;
-    margin-left: 550px;
+.planos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 250px;
+}
+/* ------- conteudo botões ------- */
+.botao-planos {
+    color: white;
+    background-color: #198754;
+    width: 150px;
+    border-radius: 4px;
+    text-align: center;
+    padding: 6px 0px;
 }
 
- 
+#mensal, #mensal-dois {
+    margin-top: 20px;
+}
+/* -------------------------------- */
 
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: start;
+    color: green;
+    margin: 20px;
+}
 
