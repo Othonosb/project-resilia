@@ -1,0 +1,282 @@
+/*Codigo criado por kaio reisson para Projeto final | Resilia Educação */
+/*Seguindo o desing votado e discutido pela bancada do trabalho, esta home page/ leading page 
+foi criada sem a necessidade de recursos de fora (bootstrap ou demais frameworks)*/
+
+
+/*Scrollbar content***/
+
+
+/*KEYFRAMES ANIMATION***/
+@keyframes opacidade{
+    0%{
+        opacity: 0%;
+        margin-top: 40px;
+        transform: scaleY(-20px)
+    }
+    100%{
+        opacity: 100%;
+        margin-top: 0px;
+        transform: scaleY(0px)
+    }
+}
+
+@keyframes opacidade2{
+    0%{
+        opacity: 0%;
+        transform: scaleY(35px);
+          
+    }
+    
+    100%{
+        opacity: 100%;
+        transform: scaleY(0px);
+    }
+}
+
+/* @imports ==== */
+@import url('https://fonts.googleapis.com/css2? família=Open+Sans:wght@300;500;700&display=swap');
+
+/*valores padrão navegador*/
+::selection{
+    background-color: #184d34;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/*=====================*/
+
+body{  
+    background-image: opacity(10%);
+    background-position: 70rem;
+    background-image: url(./pratodecomida.jpg);  
+    font-family:'Open Sans' , sans-serif ;
+}
+
+/**=========Conteudo topBar ===============*/
+/*====CASO QUEIRA COPIAR A TOPBAR, LEMBRAR DE ADICIONAR O MESMO CODIGO HTML====*/
+
+.topbarcontainer{
+    justify-content: flex-end;
+    display: flex;
+    margin-top: 2rem;
+    margin-right: 40px;
+}
+.texto{
+    font-size: 16px;
+    font-weight: 500;
+}
+.topbarcontainer a{
+
+    margin-right: 30px;
+    text-decoration: none;
+    color: white;
+}
+.topbarcontainer a:hover{
+    color: rgb(7, 250, 47);
+    text-decoration: underline;
+}
+
+.box1{
+    margin-right: 15px;
+    transition: 0.5s;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2{
+    margin-right: 15px;
+    transition: 0.5s;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box3{
+    margin-right: 15px;
+    transition: 0.5s;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/*==== FIM DO CONTEUDO TOPBAR======*/
+
+
+.titulo{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 11rem;
+    margin-right: 50px;
+
+}
+.titulo h1{
+    margin-left: 3rem;
+    font-weight: 500;
+    font-size: 60px;
+    animation-name: opacidade;
+    animation-duration: 1s;
+}
+.subtitulo{
+    color: rgb(95, 255, 2);
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 25px;
+    margin-right: 50px;
+}
+.btn button{
+    font-size: 20px;
+    width: 150px;
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: #37aa74;
+    
+}
+.btn{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 3rem;
+    margin-left: 65rem;
+    animation-name: opacidade2;
+    animation-duration: 3s;
+}
+.btn1{
+    margin-right: 20px;
+    position: relative;
+    width: 250px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: #29c57ce0;
+    
+}
+.btn1 h3{
+    color: white;
+    margin-top: 14px;
+    margin-left: 30px;
+    
+}
+
+.pratos{
+
+    width: 100%;
+    height: 100vh;
+    margin-top:200px;
+    background-color: #37aa74;
+}
+
+/*==== FOOTER CONTENT ======*/
+.txt{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    background-color: white;
+}
+.txt h3{
+    margin-top: 16px;
+    color: black;
+    opacity: 50%;
+}
+/*===== FOOTER END CONTENT =======*/
+.ptxt{
+    color: white;
+    display: grid;
+    justify-content: flex-start;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+.ptxt h2{
+    font-size: 23px;
+}
+.degu{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    font-style: bold;
+    font-weight: 300;
+    margin-right: 20px;
+    
+}
+.degu h3{
+    margin-top: 5rem;
+    position: relative;
+}
+.opcao1{
+    color: white;
+    margin-right: 70px;
+    height: 210px;
+    width: 200px;
+    border-radius: 17px;
+    background-color: white;
+    transition: 0.5s;
+    background-position: -4rem;
+    background-image: url(https://img.freepik.com/fotos-gratis/comida-deliciosa-de-alto-angulo-no-prato_23-2149214674.jpg?w=360);
+}
+.opcao1 h1{
+    margin-top: -37px;
+}
+.opcao1:hover{
+    height: 310px;
+    width: 270px;
+    font-size: 13px;
+    border-radius: 10px;
+    
+}
+.opcao2{
+    margin-right: 70px;
+    height: 210px;
+    width: 200px;
+    border-radius: 17px;
+    background-color: purple;
+    transition: 0.5s;
+    background-position: -13rem -5rem;
+    background-image: url(https://img.freepik.com/fotos-gratis/garota-mantem-um-prato-com-muesli-e-kiwi-apos-treino-de-fitness-com-halteres_8353-5764.jpg?w=996);
+}
+.opcao2 h1{
+    margin-left: 1rem;
+    margin-top: -36px;
+    color: white;
+    animation-duration: 0.5s;
+    animation-name: opacidade;
+}
+.opcao2:hover{
+    font-size: 13px;
+    height: 310px;
+    width: 270px;
+}
+
+.opcao3{
+    margin-right: 40px;
+    height: 210px;
+    width: 200px;
+    border-radius: 17px;
+    background-color: yellow;
+    transition: 0.5s;
+    color: white;
+    background-position: -3rem -1.5rem;
+    background-image: url(https://img.freepik.com/fotos-gratis/vista-superior-de-comida-vegetariana-saudavel-e-equilibrada_1150-37017.jpg?w=1060);
+}
+.opcao3 h1{
+    margin-top: -40px;
+}
+.opcao3:hover{
+    height: 310px;
+    width: 270px;
+    border-radius: 10px; 
+    font-size: 13px;
+}
+
+.seletor{
+    margin-top: 8rem;
+    display: flex;
+    justify-content: center;
+    margin-left: 90px;
+}
+
