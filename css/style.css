@@ -5,6 +5,54 @@
     font-family: 'open Sans', 'sans-serif';
 }
 
+/**=========Conteudo topBar ===============*/
+/*====CASO QUEIRA COPIAR A TOPBAR, LEMBRAR DE ADICIONAR O MESMO CODIGO HTML====*/
+
+.topbarcontainer{
+    justify-content: flex-end;
+    display: flex;
+    margin-top: 2rem;
+    margin-right: 40px;
+}
+.texto{
+    font-size: 16px;
+    font-weight: 500;
+}
+.topbarcontainer a{
+
+    margin-right: 30px;
+    text-decoration: none;
+    color: white;
+}
+.topbarcontainer a:hover{
+    color: rgb(7, 250, 47);
+    text-decoration: underline;
+}
+
+.box1{
+    margin-right: 15px;
+    transition: 0.5s;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2{
+    margin-right: 15px;
+    transition: 0.5s;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box3{
+    margin-right: 15px;
+    transition: 0.5s;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: center;
+}
+
 .conteudo-box {
     display: table;
     text-align: center;
@@ -57,3 +105,18 @@
     background: rgb(88, 129, 87);
     
 }
+
+/*==== FOOTER CONTENT ======*/
+.txt{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    background-color: white;
+}
+.txt h3{
+    margin-top: 16px;
+    color: black;
+    opacity: 50%;
+}
+/*===== FOOTER END CONTENT =======*/
+
