@@ -10,8 +10,9 @@
 .topbarcontainer{
     justify-content: flex-end;
     display: flex;
-    margin-top: 2rem;
-    margin-right: 40px;
+    margin-top: -4.0%;
+    margin-right: 0.4%;
+
 }
 .texto{
     font-size: 16px;
@@ -21,7 +22,8 @@
 
     margin-right: 30px;
     text-decoration: none;
-    color: black;
+    color: green;
+    text-shadow: 2px 2px 5px green;
 }
 .topbarcontainer a:hover{
     color: rgb(7, 250, 47);
@@ -55,14 +57,14 @@
 .conteudo-box {
     display: table;
     text-align: center;
-    margin: 12px 6px 6px 6px;
+    margin: 3px 6px 6px 6px;
     padding: 2px;
 }
 
 .imagem {
     display: table-cell;
     float: left;
-    margin: -6px 6px -6px 6px;
+    margin: 3px 6px -6px 6px;
  }
 
 
@@ -79,13 +81,6 @@
     color: rgb(88, 129, 87);
     text-shadow: 2px 2px 5px green;
 }
-
-/* .tituloPrincipal{
-    margin-top: 5%;
-    padding-left: 25px;
-    color: green;
-    text-shadow: 2px 2px 5px green;
-} */
 
 .card{
     border-radius: 20px;
