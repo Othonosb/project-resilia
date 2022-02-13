@@ -10,26 +10,25 @@ foi criada sem a necessidade de recursos de fora (bootstrap ou demais frameworks
 @keyframes opacidade{
     0%{
         opacity: 0%;
-        margin-top: 40px;
-        transform: scaleY(-20px)
+        transform: translateY(30px);
     }
+
     100%{
         opacity: 100%;
-        margin-top: 0px;
-        transform: scaleY(0px)
+
     }
 }
 
 @keyframes opacidade2{
     0%{
         opacity: 0%;
-        transform: scaleY(35px);
-          
+          transform: translateY(10px)
     }
     
     100%{
         opacity: 100%;
-        transform: scaleY(0px);
+        transform: translateY(30px)
+
     }
 }
 
@@ -118,8 +117,7 @@ body{
     margin-left: 3rem;
     font-weight: 500;
     font-size: 60px;
-    animation-name: opacidade;
-    animation-duration: 1s;
+    animation: opacidade 3s;
 }
 .subtitulo{
     color: rgb(95, 255, 2);
@@ -144,8 +142,7 @@ body{
     justify-content: flex-start;
     margin-top: 3rem;
     margin-left: 65rem;
-    animation-name: opacidade2;
-    animation-duration: 3s;
+    
 }
 .btn1{
     margin-right: 20px;
@@ -170,7 +167,17 @@ body{
     margin-top:200px;
     background-color: #37aa74;
 }
-
+.seta{
+    display: flex;
+    margin-top: 90px;
+    justify-content: center;
+}
+.seta img{
+    max-width: 70px;
+    border-radius: 10px;
+    background-color: #184d34;
+    animation: opacidade2 1s infinite alternate;
+}
 /*==== FOOTER CONTENT ======*/
 .txt{
     display: flex;
@@ -209,6 +216,7 @@ body{
     position: relative;
 }
 .opcao1{
+    filter: saturate(20%);
     color: white;
     margin-right: 70px;
     height: 210px;
@@ -227,7 +235,8 @@ body{
     width: 270px;
     font-size: 13px;
     border-radius: 10px;
-    
+    filter: saturate(100%);
+
 }
 .opcao2{
     margin-right: 70px;
