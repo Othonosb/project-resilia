@@ -5,12 +5,38 @@
     font-family: 'open Sans', 'sans-serif';
 }
 
-.tituloPrincipal{
+.conteudo-box {
+    display: table;
+    text-align: center;
+    margin: 12px 6px 6px 6px;
+    padding: 2px;
+}
+
+.imagem {
+    display: table-cell;
+    float: left;
+    margin: -6px 6px -6px 6px;
+ }
+
+
+ .box-chef {
+    width: 100px;
+    height: 80px;
+}
+
+.texto { 
+    display: table-cell;
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+/* .tituloPrincipal{
     margin-top: 5%;
     padding-left: 25px;
     color: green;
     text-shadow: 2px 2px 5px green;
-}
+} */
 
 .card{
     border-radius: 20px;
