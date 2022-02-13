@@ -6,7 +6,6 @@
 }
 
 /**=========Conteudo topBar ===============*/
-/*====CASO QUEIRA COPIAR A TOPBAR, LEMBRAR DE ADICIONAR O MESMO CODIGO HTML====*/
 
 .topbarcontainer{
     justify-content: flex-end;
@@ -22,7 +21,7 @@
 
     margin-right: 30px;
     text-decoration: none;
-    color: white;
+    color: black;
 }
 .topbarcontainer a:hover{
     color: rgb(7, 250, 47);
@@ -72,11 +71,13 @@
     height: 80px;
 }
 
-.texto { 
+.tituloPrincipal{ 
     display: table-cell;
     float: left;
     margin-top: 30px;
     margin-left: 20px;
+    color: rgb(88, 129, 87);
+    text-shadow: 2px 2px 5px green;
 }
 
 /* .tituloPrincipal{
