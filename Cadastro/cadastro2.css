@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'open Sans', 'sans-serif';
+}
+
+/**=========Conteudo topBar ===============*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    box-sizing: border-box;
+}
+.topbarcontainer{
+     justify-content: flex-end;
+    display: flex;
+   
+}
+.texto{
+    font-size: 16px;
+    font-weight: 500;
+}
+.topbarcontainer a{
+
+    margin-right: 30px;
+    text-decoration: none;
+    color: green;
+    text-shadow: 2px 2px 5px green;
+}
+.topbarcontainer a:hover{
+    color: rgb(7, 250, 47);
+    text-decoration: underline;
+}
+
+.box1{
+        transition: 0.5s;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2{
+    transition: 0.5s;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box3{
+        transition: 0.5s;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: center;
+}
+/*--------------FIM DO CONTEÚDO TOP BAR*------------*/
+
+
+.conteudo-box {
+    display: table;
+    text-align: center;
+    padding: 2px;
+    width: auto;
+}
+
+.imagem {
+    display: table-cell;
+       
+ }
+
+
+ .box-chef {
+    width: 100px;
+    height: 80px;
+}
+
+.tituloPrincipal{ 
+    display: table-cell;
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    color: rgb(88, 129, 87);
+    text-shadow: 2px 2px 5px green;
+}
+
+.card{
+    border-radius: 20px;
+}
+
+.card-img-top{
+    border-radius: 5px;
+}
+
+.card-deck{
+    padding: 25px;
+    margin-top: 5%;
+    color: white;
+    border-radius: 20px;
+}
+
+.card-body{
+    background: rgb(88, 129, 87);
+    
+}
+
+/*==== FOOTER CONTENT ======*/
+.txt{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    background-color: white;
+}
+.txt h3{
+    margin-top: 16px;
+    color: black;
+    opacity: 50%;
+}
+/*===== FOOTER END CONTENT =======*/
