@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="cadastro.css">
     <link rel="stylesheet" href="cadastro2.css">
-    <script src="../funcoes.js" defer></script>
+    <script src="cadastro.js" defer></script>
     <title>Cadastre-se Aqui</title>
-       <link rel="shortcut icon" href="./imagens/panelaQuente.png" type="image/png">
+    <link rel="shortcut icon" href="./imagens/panelaQuente.png" type="image/png">
 </head>
+
 <body>
-    
+
 
     <header>
         <!-- <div class="container-cabecalho"> -->
@@ -19,8 +21,8 @@
             <div class="imagem">
                 <img src="imagens/logosemfundo.png" alt="" class="box-chef">
             </div>
-                </div>
-        
+        </div>
+
         <!---CONTEUDO DA TOPBAR===========-->
         <div class="topbarcontainer">
             <!-- <img class="logo-principal" src="./logosemfundo.png" alt="logomarca" > -->
@@ -32,7 +34,7 @@
             <!----===================------>
             <div class="box2">
                 <div class="texto">
-                    <a id="planos" href="../planos/planos.html">Planos</a>
+                    <a id="planos" href="#">Planos</a>
                 </div>
             </div>
             <!--======================-->
@@ -44,116 +46,117 @@
             <!--============================-->
             <div class="box4">
                 <div class="texto">
-                    <a id="embaixadores" href="../Embaixadores/embaixadores.html">Embaixadores</a>
+                    <a id="embaixadores" href="#">Embaixadores</a>
                 </div>
             </div>
             <!--============================-->
             <div class="box4">
                 <div class="texto">
-                    <a id="login" href="../loginRecuperacaoDeSenha/login.html">Login</a>
+                    <a id="login" href="#">Login</a>
                 </div>
             </div>
             <!--FIM DO CONTEUDO DA TOPBAR =========================-->
-        </div> 
+        </div>
         <!-- </div>     -->
     </header>
     <!--CONTEUDO DE NAVEGAÇAO COM LOGO, IMAGENS FACEBOOK, GOOGLE e o "OU"-->
-    <nav class="navegação">        
+    <nav class="navegação">
         <h1>Cadastre-se</h1>
-       <div class="social-media">
-           <a href="#">
-               <img src="./imagens/google.png" alt="Google">
-           </a>
-           <a href="#">
-               <img src="./imagens/facebook.png" alt="Facebook">
-           </a>
-           <a href="#">
-               <img src="./imagens/linkedin.png" alt="Linkedin">
-           </a>
-       </div>
-       <div class="alternative">
-       <span>Ou</span>
-    </div>
+        <div class="social-media">
+            <a href="#">
+                <img src="./imagens/google.png" alt="Google">
+            </a>
+            <a href="#">
+                <img src="./imagens/facebook.png" alt="Facebook">
+            </a>
+            <a href="#">
+                <img src="./imagens/linkedin.png" alt="Linkedin">
+            </a>
+        </div>
+        <div class="alternative">
+            <span>Ou</span>
+        </div>
     </nav>
     <!--FIM DO CONTEUDO DE NAVEGAÇAO-->
-          
+
     <main>
-       <!--CONTEUDO DO FORMULÁRIO-->
-       <form class="formulario" action="">
-           <label for="name">
-               <span>Nome</span>
-               <input type="text" id="name" name="name">
-           </label>
-    <!--=====================================-->
-           <label for="email">
-               <span>E-mail</span>
-               <input type="email" id="email" name="email">
-           </label>
-    <!--=====================================-->
-           <label for="password">
-               <span>Senha</span>
-               <input type="password" id="password" name="password">
-           </label>
-       <!--==================================-->    
-           <label for="password">
-               <span>Confirmação de Senha</span>
-               <input type="password" id="password" name="password">
-           </label>
-           <!--====================================-->
-    
-               <label for="CEP">
-               <span>CEP</span>
-               <input  type="cep" id="cep" name="código postal">
-           </label>
-           <!--======================================-->
-           <label for="Estado">
-               <span>Estado</span>
-               <input type="estado" id="estado" placeholder="UF" name="estado">
-           </label>
-           <!--========================================-->
-           <label for="Cidade">
-               <span>Cidade</span>
-               <input type="cidade" id="cidade" name="cidade">
-           </label>
-           <!--========================================-->
-           <label for="Bairro">
-               <span>Bairro</span>
-               <input type="Bairro" id="bairro" name="bairrol">
-           </label>
-           <!--=========================================-->
-           <label for="Rua">
-               <span>Rua</span>
-               <input type="text" id="rua" name="rua" >
-           </label>
-           <!--=========================================-->
-           <label for="number">
-               <span>Número</span>
-               <input type="number" id="number" placeholder="insira um numero" name="number">
-           </label>
-           <!--==========================================-->
-           <label for="complemento">
-               <span>complemento</span>
-               <input type="text" id="complemento" placeholder="um ponto de referência" name="complemento">
-           </label>
-           <!--============================================-->
-           <div>
-            <!-- BOTAO INSCREVER-SE -->
-            <input class="botton" type="submit" id="login" value="Inscrever-se">
+        <!--CONTEUDO DO FORMULÁRIO-->
+        <form class="formulario" action="">
+            <label for="name">
+                <span>Nome</span>
+                <input type="text" id="name" name="name">
+            </label>
+            <!--=====================================-->
+            <label for="email">
+                <span>E-mail</span>
+                <input type="email" id="email" name="email">
+            </label>
+            <!--=====================================-->
+            <label for="password">
+                <span>Senha</span>
+                <input type="password" id="password" name="password">
+            </label>
+            <!--==================================-->
+            <label for="password">
+                <span>Confirmação de Senha</span>
+                <input type="password" id="password" name="password">
+            </label>
+            <!--====================================-->
+
+            <label for="CEP">
+                <span>CEP</span>
+                <input type="cep" id="cep" name="código postal">
+            </label>
+            <!--======================================-->
+            <label for="Estado">
+                <span>Estado</span>
+                <input type="estado" id="estado" placeholder="UF" name="estado">
+            </label>
+            <!--========================================-->
+            <label for="Cidade">
+                <span>Cidade</span>
+                <input type="cidade" id="cidade" name="cidade">
+            </label>
+            <!--========================================-->
+            <label for="Bairro">
+                <span>Bairro</span>
+                <input type="Bairro" id="bairro" name="bairrol">
+            </label>
+            <!--=========================================-->
+            <label for="Rua">
+                <span>Rua</span>
+                <input type="text" id="rua" name="rua">
+            </label>
+            <!--=========================================-->
+            <label for="number">
+                <span>Número</span>
+                <input type="number" id="number" placeholder="insira um numero" name="number">
+            </label>
+            <!--==========================================-->
+            <label for="complemento">
+                <span>complemento</span>
+                <input type="text" id="complemento" placeholder="um ponto de referência" name="complemento">
+            </label>
+            <!--============================================-->
+            <div>
+                <!-- BOTAO INSCREVER-SE -->
+                <input class="botton" type="submit" id="login" value="Inscrever-se">
+            </div>
+        </form>
+        <!--FIM DO FORMULARIO-->
+        <div>
+            <!--IMAGEM DE COMIDA AO LADO DO FORMULARIO-->
+            <img class="img" src="imagens/back1.jpg" alt="Mobile">
         </div>
-           </form>
-       <!--FIM DO FORMULARIO-->
-       <div>
-           <!--IMAGEM DE COMIDA AO LADO DO FORMULARIO-->
-       <img class="img"src="imagens/back1.jpg" alt="Mobile">
-       </div>
-       
-         </main>
+
+    </main>
     <!-- RODAPE -->
     <footer>
         <div class="txt">
-        <h3>Projeto desenvolvido por G7 | Resilia Educação &copy;</h3>
+            <h3>Projeto desenvolvido por G7 | Resilia Educação &copy;</h3>
         </div>
     </footer>
     <!-- FIM DO RODAPE -->
 </body>
+
 </html>
