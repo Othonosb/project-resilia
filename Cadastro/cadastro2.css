@@ -117,3 +117,21 @@ header {
     opacity: 50%;
 }
 /*===== FOOTER END CONTENT =======*/
+
+/*-------------AQUI COMEÇA O MEDIA QUERY----------*/
+@media only screen and (max-width: 900px) {
+    .conteudo-img{
+        display: none;
+    }
+    .topbarcontainer{
+        display: none;
+    }
+    .img{
+         display: none;
+         visibility: hidden;
+     }
+    .input[ type="submit" ] {
+         display: flex;
+         flex-direction: column;
+     }
+ }

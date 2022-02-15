@@ -14,7 +14,7 @@ body {
         height: 100vh;
         min-width: 100vw;
         overflow-x: hidden;
-    
+            
  } 
 
 .navegação {
@@ -134,8 +134,8 @@ main form {
      cursor: pointer;
  }
  main input:hover{
-     color: white;
-    background: linear-gradient(45deg, #428545, #798b77);
+     color: rgb(192, 8, 8);
+    background: linear-gradient(45deg, #428545, #b0dda1);
 
  }
  main  .input[ type="submit" ] {
@@ -144,15 +144,15 @@ main form {
      margin-top: 3rem;
      border: none;
      border-radius: 32px;
-      background: #198754; 
-     color: rgb(255, 255, 255);
+      background: #e8f3ee; 
+     color: rgb(247, 4, 4);
      font-size: 1.1rem;
      transition: all .3s ease-in-out;
      padding-top: 3rem;
  }  /* foi utilizado o seletor para estilizar o input do botão*/
 
  main input[ type="submit" ]:hover {
-     background: green;
+     background: rgb(1, 66, 6);
  }
 
  .img {
@@ -192,8 +192,5 @@ main form {
          display: none;
          visibility: hidden;
      }
-     main  .input[ type="submit" ] {
-         display: flex;
-         flex-direction: column;
-     }
+    
  }
