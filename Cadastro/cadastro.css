@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2? família=Montserrat:wght@300;500&display=swap');
+
+
+/* importei essa foto do gogole fontes, mas acho que não ta funcionando*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+} /*resetando os padrões do navegador*/
+
+body {
+    z-index: 2;
+    background: #c7e0d5 ;
+    color: rgb(42, 116, 180);
+    font-weight: 500;
+    display: flex;
+    min-height: 100vh;
+}
+#login{
+    margin-top: 7px;
+}
+main {
+    width: 500vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logomarca{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin-right: 50px;
+    margin-top: 15px;
+}
+#logo1{
+    max-width: 80px;
+    border-radius: 10px;
+}
+main h1 {
+    color:  #615bb8;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+main .social-media{
+    display: flex;
+    align-content: center;
+}
+
+main .social-media a {
+    text-decoration: none;
+    font-size: 10px;
+}
+
+main .social-media img {
+    width: 36px;
+    margin-left: 3rem;
+    transition: 0.5s;
+    opacity: 50%;
+
+}
+main .social-media img:hover{
+    opacity: 100%;
+    transform: scale(1.08);
+}
+
+
+main .social-media a:first-child img {
+    margin-left: 0;
+} /* a imagem da primeira tag <a> vai ter o margin left 0*/
+
+main .alternative {
+    margin-top: 1rem;
+    
+}
+main .alternative span {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: rgba(228, 13, 13, 0.3);
+    position: relative;
+} /*Estilização do OU*/
+
+main .alternative span::before, main .alternative span::after{
+    position: absolute;
+    content: ' ';
+    height: 2px;
+    width: 150px;
+    bottom: 50%;
+    right: 50px;
+    background: rgba(81, 128, 143, 0.3);
+} /*As linhas laterais foram feitas aqui com pseudo elementos. o AFTER e o BEFORE*/
+
+main .alternative span::after {
+    left: 50px;
+}
+main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ main form label {
+     display: flex;
+     flex-direction: column;
+ }
+
+ main form label span {
+     font-size: 1.1rem;
+     margin-top: 1rem;
+ }
+
+ main form input {
+     background: linear-gradient(45deg, #65c368, #b3cfb0);
+     width: 300px;
+     height: 30px;
+     padding: 0 0.5rem;
+     margin-top: 0.3rem;
+     outline: none;
+     color: green;
+     font-size: 0,5rem;
+     border-radius: 4px;
+     transition: 0.7s;
+     cursor: pointer;
+ }
+ main form input:hover{
+     color: white;
+    background: linear-gradient(45deg, #428545, #798b77);
+
+ }
+ main form input[ type="submit" ] {
+     cursor: pointer;
+     width: 50%;
+     margin-top: 3rem;
+     border: none;
+     border-radius: 32px;
+     background: #0b770b;
+     color: rgb(255, 255, 255);
+     font-size: 1.1rem;
+     transition: all .3s ease-in-out;
+ } /* foi utilizado o seletor para estilizar o input do botão*/
+
+ main form input[ type="submit" ]:hover {
+     background: #bfbfbf;
+ }
+
+ section.images {
+     display: flex;
+     align-items: flex-end;
+     padding: 4rem;
+     } /**/
+
+      section.images .circle {
+          position: absolute;
+          height: 100%;
+          width: 100%;
+          top: 0;
+          left: 0;
+          background: linear-gradient(45deg, #65c368, #b3cfb0);
+          clip-path: circle(40% at right 80%); 
+          z-index: -1;
+      } /*clip-path é uma propriedade que permite, que recortemos parte de um elemento*/
+      /*at é a posição que o elemento estará, então at rigth significa que o elemento estará 80% a direita.*/
+      /*Linear gradiente permite add um gradiente de cor e 45deg, significa um angulo de 45 graus pro gradiente*/
+      /*Z-index é o eixo z, foi usado para sobrepor os elementos, o z index fez com que o elemento fosse para trás da imagem mobile.*/
+      /*Z-index só funciona com elementos que possuem a propriedade "position (absolute, relative...).*/
+
+
+ 
