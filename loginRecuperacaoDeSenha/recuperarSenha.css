@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 body{
     display: flex;
     min-height: 100vh;
@@ -11,8 +12,8 @@ body{
     font-family: 'Roboto', sans-serif;
     overflow: hidden;
     text-align: center;
+   
 }
-
 
 .form-text{
     font-size: 12px;
@@ -155,6 +156,8 @@ input{
 }
 
 
+
+
 h3{
     display: flex;
     justify-content: center;
@@ -184,4 +187,5 @@ h3{
 
 #logo{
     margin-left: 127px;
+}
 
