@@ -34,19 +34,19 @@
         <form>
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Email </label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                <input type="text" name="email" id="redefinir-email" maxlength="60" size='65'
                     placeholder="email@email.com" required>
                 <div id="emailHelp" class="form-text">Preencha os campos para prosseguir.</div>
             </div>
             <div class="mb-3">
                 <label for="exampleInputPassword1" class="form-label">Senha</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha" required>
+                <input type="text" name="email" id="redefinir-email" maxlength="60" size='65'>
             </div>
             <div class="mb-3 form-check">
             </div>
             <h2 class="text-decoration"><a href="recuperarSenha.html" target="_blank">Esqueci minha senha</a></h2>
 
-            <button type="submit" class="btn btn-success">Enviar</button>
+            <button type="submit" class="btn btn-success" onclick="validacaoEmail()">Enviar</button>
             <h3>Ainda não tem cadastro? &nbsp; <a class="a_h3" href="../Cadastro/cadastro.html"
                     target="_blank">Cadastre-se</a></h3>
 
