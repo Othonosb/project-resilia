@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 body{
     display: flex;
     min-height: 100vh;
@@ -188,4 +187,24 @@ h3{
 #logo{
     margin-left: 127px;
 }
+
+@media only screen and (max-width: 1000px) {
+
+    .card-img{
+        display: none;
+
+    }
+    .autenticacao-form{
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        height: 680px;
+        width: 250px;
+        margin-top:50px;
+        
+
+
+    }
+    }
+
 
