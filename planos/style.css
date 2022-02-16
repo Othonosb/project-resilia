@@ -11,25 +11,81 @@ img {
 }
 
 p {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', 'sans-serif';
     font-size: 15px;
 }
 
 h1 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', 'sans-serif';
     font-size: 20px;
     color: green ;
     text-shadow: 2px 2px 5px green;
 }
 
-nav {
+/*-------conteudo top bar-------*/
+
+.topbarcontainer{
     display: flex;
     justify-content:flex-end;
     align-items: flex-end;
-    margin-top: -6%;
-    margin-right: 3%;    
+    margin-top: -8.5%;
+    margin-right: 3px;
+}
+.texto{
+    font-size: 16px;
+    font-weight: 500;
+}
+.topbarcontainer a{
+    margin-right: 3px;
+    text-decoration: none;
+    color: green;
+}
+.topbarcontainer a:hover{
+    color: rgb(7, 250, 47);
+    text-decoration: underline;
 }
 
+.box1{
+    margin-right: 15px;
+    transition: 0.5s;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2{
+    margin-right: 15px;
+    transition: 0.5s;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box3{
+    margin-right: 15px;
+    transition: 0.5s;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box4{
+    margin-right: 15px;
+    transition: 0.5s;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box5{
+    margin-right: 15px;
+    transition: 0.5s;
+    border-radius: 7px;
+    align-items: center;
+    justify-content: center;
+}
+
+/*------- fim da top bar---------*/
 .conteudo-box {
     display: table;
     text-align: center;
@@ -50,7 +106,7 @@ a {
     margin-left: 50px;
     padding: 2px;
     text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'open Sans', 'sans-serif';
     font-size: 16px;
     color: green;
     text-shadow: 2px 2px 5px green;
@@ -143,30 +199,8 @@ a {
     width: 200px;
     height: 250px;
 }
-/* ------- conteudo botões ------- */
-.botao-planos {
-    color: white;
-    background-color: #198754;
-    width: 150px;
-    border-radius: 4px;
-    text-align: center;
-    padding: 6px 0px;
-}
 
-#mensal, #mensal-dois {
-    margin-top: 20px;
-}
-/* -------------------------------- */
-
-footer {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    text-align: start;
-    color: green;
-    margin: 20px;
-}
-/*---------conteudo botões-----------*/
+/*---------Conteúdo botões----------*/
 .botao-planos {
     color: white;
     background-color: #198754;
@@ -187,4 +221,29 @@ footer {
 
 #mensal, #mensal-dois {
     margin-top: 20px;
+}
+/* -------------------------------- */
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: start;
+    color: green;
+    margin: 20px;
+}
+
+@media (max-width: 538px){
+    .topbarcontainer{
+        display:flex;
+        flex-direction:column; 
+        justify-content:center;
+        align-items:center;
+    }
+    .box-pratos{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
 }
